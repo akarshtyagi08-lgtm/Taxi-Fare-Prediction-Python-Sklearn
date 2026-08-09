@@ -1,12 +1,16 @@
 # Import required Modules
+import os
 import pandas as pd
 import numpy as np
+import kagglehub
 from sklearn.linear_model import LinearRegression
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import mean_absolute_error, mean_squared_error, r2_score
 
 # Reading Data
-data = pd.read_csv("Taxi_Trip_Data.csv")
+path = kagglehub.dataset_download("hrishikeshsuresh/taxi-fare-data-2023")
+file_path = os.path.join(path, "Taxi_Trip_Data.csv")
+data = pd.read_csv(file_path)
 
 # Encode Data using OneHot Encoding
 data = pd.get_dummies(data, columns=['payment_type'], drop_first=True)
