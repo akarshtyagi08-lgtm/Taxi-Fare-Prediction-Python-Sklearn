@@ -16,7 +16,7 @@ R^2 Score: 0.97389
 4. seaborn
 5. sklearn (Scikit-learn)
 
-NOTE:- You don't need **matplotlib** and **seaborn** as they were used for visualization of data, which is already done.
+**NOTE**:- You don't need **matplotlib** and **seaborn** as they were used for visualization of data, which is already done.
 
 # More Details
 The dataset used in this project is imported from **Kaggle**. The Heatmap is also uploaded, you can use and train the model on More bigger dataset.
