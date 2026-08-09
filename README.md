@@ -3,7 +3,7 @@ This is a ML (Machine Learning) Project, this model predicts taxi fare based on 
 
 # Overall Report
 ```
-MAE: 0.483                                     MSE: 0.746                                     RMSE: 0.864                                    R^2 Score: 0.97389
+MAE: 0.483                                            MSE: 0.746                                            RMSE: 0.864                                           R^2 Score: 0.97389
 ```
 
 # Modules Used in the project
@@ -26,5 +26,5 @@ data = pd.get_dummies(data, columns=['payment_type'], drop_first=True)
 ```
 Then the data was splited into Training and Testing data. I took the model and trained is on LinearRegression, after testing the report was:
 ```
-MAE: 0.483                                     MSE: 0.746                                     RMSE: 0.864                                    R^2 Score: 0.97389
+MAE: 0.483                                            MSE: 0.746                                            RMSE: 0.864                                           R^2 Score: 0.97389
 ```
