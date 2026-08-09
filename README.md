@@ -2,8 +2,12 @@
 This is a ML (Machine Learning) Project, this model predicts taxi fare based on 4 parameters, the model was trained on 6,760,872 rows and tested on 1,690,218 rows, the model got ~97% Accuracy on testing data. LinearRegression was used.
 
 # Overall Report:
-
-MAE: 0.483                                            MSE: 0.746                                            RMSE: 0.864                                           R^2 Score: 0.97389
+```
+MAE: 0.483
+MSE 0.746
+RMSE: 0.864
+R^2 Score: 0.97389
+```
 
 # Modules Used in the project
 1. numpy
